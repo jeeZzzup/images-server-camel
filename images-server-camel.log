@@ -1,0 +1,418 @@
+53456 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55182-1334583842497-0-2
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:44:55 CEST 2012, CamelFileExchangeFile=GenericFile[PL.ENT-E90-ESS.JPG], CamelBatchIndex=0}
+, Headers:{breadcrumbId=ID-MAURIN-55182-1334583842497-0-1, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-prod\modele\PL.ENT-E90-ESS.JPG, CamelFileLength=121975, CamelFileName=PL.ENT-E90-ESS.JPG, CamelFileRelativePath=PL.ENT-E90-ESS.JPG, CamelFileLastModified=Mon Apr 16 14:27:31 CEST 2012, CamelFileNameOnly=PL.ENT-E90-ESS.JPG, CamelFileParent=data\srv-img-prod\modele, CamelFileAbsolute=false, CamelFilePath=data\srv-img-prod\modele\PL.ENT-E90-ESS.JPG}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[PL.ENT-E90-ESS.JPG]]
+, Out: null
+]
+53462 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai.ImagesServerResizeProcessor  - Process PL.ENT-E90-ESS.JPG
+53479 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55182-1334583842497-0-4
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:44:55 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-011X.JPG], CamelBatchIndex=1}
+, Headers:{CamelFileNameOnly=SE10BMW-E90-011X.JPG, CamelFileAbsolute=false, CamelFileParent=data\srv-img-prod\modele, CamelFileName=SE10BMW-E90-011X.JPG, CamelFileRelativePath=SE10BMW-E90-011X.JPG, CamelFilePath=data\srv-img-prod\modele\SE10BMW-E90-011X.JPG, breadcrumbId=ID-MAURIN-55182-1334583842497-0-3, CamelFileLength=23267, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-prod\modele\SE10BMW-E90-011X.JPG, CamelFileLastModified=Mon Apr 16 14:27:31 CEST 2012}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-011X.JPG]]
+, Out: null
+]
+53479 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai.ImagesServerResizeProcessor  - Process SE10BMW-E90-011X.JPG
+53490 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55182-1334583842497-0-6
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:44:55 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-012X.JPG], CamelBatchIndex=2}
+, Headers:{CamelFilePath=data\srv-img-prod\modele\SE10BMW-E90-012X.JPG, CamelFileAbsolute=false, CamelFileName=SE10BMW-E90-012X.JPG, breadcrumbId=ID-MAURIN-55182-1334583842497-0-5, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-prod\modele\SE10BMW-E90-012X.JPG, CamelFileRelativePath=SE10BMW-E90-012X.JPG, CamelFileLastModified=Mon Apr 16 14:27:32 CEST 2012, CamelFileParent=data\srv-img-prod\modele, CamelFileNameOnly=SE10BMW-E90-012X.JPG, CamelFileLength=18509}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-012X.JPG]]
+, Out: null
+]
+53490 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai.ImagesServerResizeProcessor  - Process SE10BMW-E90-012X.JPG
+53513 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55182-1334583842497-0-8
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:44:55 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-013X.JPG], CamelBatchIndex=3}
+, Headers:{CamelFileLength=22720, CamelFilePath=data\srv-img-prod\modele\SE10BMW-E90-013X.JPG, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-prod\modele\SE10BMW-E90-013X.JPG, breadcrumbId=ID-MAURIN-55182-1334583842497-0-7, CamelFileNameOnly=SE10BMW-E90-013X.JPG, CamelFileLastModified=Mon Apr 16 14:27:32 CEST 2012, CamelFileName=SE10BMW-E90-013X.JPG, CamelFileRelativePath=SE10BMW-E90-013X.JPG, CamelFileAbsolute=false, CamelFileParent=data\srv-img-prod\modele}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-013X.JPG]]
+, Out: null
+]
+53513 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai.ImagesServerResizeProcessor  - Process SE10BMW-E90-013X.JPG
+53529 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55182-1334583842497-0-10
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:44:55 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-014X.JPG], CamelBatchIndex=4}
+, Headers:{CamelFileAbsolute=false, CamelFileName=SE10BMW-E90-014X.JPG, breadcrumbId=ID-MAURIN-55182-1334583842497-0-9, CamelFileNameOnly=SE10BMW-E90-014X.JPG, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-prod\modele\SE10BMW-E90-014X.JPG, CamelFileLength=21417, CamelFilePath=data\srv-img-prod\modele\SE10BMW-E90-014X.JPG, CamelFileLastModified=Mon Apr 16 14:27:32 CEST 2012, CamelFileParent=data\srv-img-prod\modele, CamelFileRelativePath=SE10BMW-E90-014X.JPG}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-014X.JPG]]
+, Out: null
+]
+53529 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai.ImagesServerResizeProcessor  - Process SE10BMW-E90-014X.JPG
+53538 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55182-1334583842497-0-12
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:44:55 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-015X.JPG], CamelBatchIndex=5}
+, Headers:{breadcrumbId=ID-MAURIN-55182-1334583842497-0-11, CamelFileName=SE10BMW-E90-015X.JPG, CamelFileNameOnly=SE10BMW-E90-015X.JPG, CamelFileAbsolute=false, CamelFilePath=data\srv-img-prod\modele\SE10BMW-E90-015X.JPG, CamelFileRelativePath=SE10BMW-E90-015X.JPG, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-prod\modele\SE10BMW-E90-015X.JPG, CamelFileParent=data\srv-img-prod\modele, CamelFileLastModified=Mon Apr 16 14:27:32 CEST 2012, CamelFileLength=15763}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-015X.JPG]]
+, Out: null
+]
+53538 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai.ImagesServerResizeProcessor  - Process SE10BMW-E90-015X.JPG
+53551 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55182-1334583842497-0-14
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:44:55 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-016X.JPG], CamelBatchIndex=6}
+, Headers:{CamelFileLastModified=Mon Apr 16 14:27:32 CEST 2012, CamelFileParent=data\srv-img-prod\modele, CamelFileNameOnly=SE10BMW-E90-016X.JPG, CamelFileRelativePath=SE10BMW-E90-016X.JPG, CamelFileAbsolute=false, breadcrumbId=ID-MAURIN-55182-1334583842497-0-13, CamelFilePath=data\srv-img-prod\modele\SE10BMW-E90-016X.JPG, CamelFileName=SE10BMW-E90-016X.JPG, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-prod\modele\SE10BMW-E90-016X.JPG, CamelFileLength=29123}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-016X.JPG]]
+, Out: null
+]
+53551 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai.ImagesServerResizeProcessor  - Process SE10BMW-E90-016X.JPG
+53566 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55182-1334583842497-0-16
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:44:55 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-017X.JPG], CamelBatchIndex=7}
+, Headers:{breadcrumbId=ID-MAURIN-55182-1334583842497-0-15, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-prod\modele\SE10BMW-E90-017X.JPG, CamelFileLastModified=Mon Apr 16 14:27:32 CEST 2012, CamelFilePath=data\srv-img-prod\modele\SE10BMW-E90-017X.JPG, CamelFileLength=24205, CamelFileName=SE10BMW-E90-017X.JPG, CamelFileNameOnly=SE10BMW-E90-017X.JPG, CamelFileParent=data\srv-img-prod\modele, CamelFileRelativePath=SE10BMW-E90-017X.JPG, CamelFileAbsolute=false}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-017X.JPG]]
+, Out: null
+]
+53566 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai.ImagesServerResizeProcessor  - Process SE10BMW-E90-017X.JPG
+53574 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55182-1334583842497-0-18
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:44:55 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-018X.JPG], CamelBatchIndex=8}
+, Headers:{CamelFileRelativePath=SE10BMW-E90-018X.JPG, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-prod\modele\SE10BMW-E90-018X.JPG, CamelFilePath=data\srv-img-prod\modele\SE10BMW-E90-018X.JPG, CamelFileParent=data\srv-img-prod\modele, CamelFileLength=22439, CamelFileName=SE10BMW-E90-018X.JPG, CamelFileLastModified=Mon Apr 16 14:27:32 CEST 2012, CamelFileAbsolute=false, CamelFileNameOnly=SE10BMW-E90-018X.JPG, breadcrumbId=ID-MAURIN-55182-1334583842497-0-17}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-018X.JPG]]
+, Out: null
+]
+53574 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai.ImagesServerResizeProcessor  - Process SE10BMW-E90-018X.JPG
+53584 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55182-1334583842497-0-20
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:44:55 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-019X.JPG], CamelBatchIndex=9}
+, Headers:{CamelFileLength=24896, breadcrumbId=ID-MAURIN-55182-1334583842497-0-19, CamelFileNameOnly=SE10BMW-E90-019X.JPG, CamelFileName=SE10BMW-E90-019X.JPG, CamelFileParent=data\srv-img-prod\modele, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-prod\modele\SE10BMW-E90-019X.JPG, CamelFileAbsolute=false, CamelFileLastModified=Mon Apr 16 14:27:32 CEST 2012, CamelFileRelativePath=SE10BMW-E90-019X.JPG, CamelFilePath=data\srv-img-prod\modele\SE10BMW-E90-019X.JPG}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-019X.JPG]]
+, Out: null
+]
+53585 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai.ImagesServerResizeProcessor  - Process SE10BMW-E90-019X.JPG
+53595 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55182-1334583842497-0-22
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=true, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:44:55 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-020X.JPG], CamelBatchIndex=10}
+, Headers:{CamelFileName=SE10BMW-E90-020X.JPG, CamelFileNameOnly=SE10BMW-E90-020X.JPG, CamelFileLastModified=Mon Apr 16 14:27:32 CEST 2012, CamelFileLength=24125, breadcrumbId=ID-MAURIN-55182-1334583842497-0-21, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-prod\modele\SE10BMW-E90-020X.JPG, CamelFileParent=data\srv-img-prod\modele, CamelFileRelativePath=SE10BMW-E90-020X.JPG, CamelFilePath=data\srv-img-prod\modele\SE10BMW-E90-020X.JPG, CamelFileAbsolute=false}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-020X.JPG]]
+, Out: null
+]
+53596 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai.ImagesServerResizeProcessor  - Process SE10BMW-E90-020X.JPG
+53941 [Camel (camel-1) thread #2 - file://data/srv-img-tmp/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55182-1334583842497-0-24
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:44:55 CEST 2012, CamelFileExchangeFile=GenericFile[PL.ENT-E90-ESS.JPG], CamelBatchIndex=0}
+, Headers:{CamelFileNameOnly=PL.ENT-E90-ESS.JPG, CamelFileName=PL.ENT-E90-ESS.JPG, CamelFilePath=data\srv-img-tmp\modele\PL.ENT-E90-ESS.JPG, CamelFileLastModified=Mon Apr 16 15:44:55 CEST 2012, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-tmp\modele\PL.ENT-E90-ESS.JPG, CamelFileRelativePath=PL.ENT-E90-ESS.JPG, CamelFileParent=data\srv-img-tmp\modele, CamelFileAbsolute=false, CamelFileLength=121975, breadcrumbId=ID-MAURIN-55182-1334583842497-0-23}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[PL.ENT-E90-ESS.JPG]]
+, Out: null
+]
+53958 [Camel (camel-1) thread #2 - file://data/srv-img-tmp/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55182-1334583842497-0-26
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:44:55 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-011X.JPG], CamelBatchIndex=1}
+, Headers:{CamelFileName=SE10BMW-E90-011X.JPG, CamelFileRelativePath=SE10BMW-E90-011X.JPG, CamelFileAbsolute=false, breadcrumbId=ID-MAURIN-55182-1334583842497-0-25, CamelFileLength=23267, CamelFileNameOnly=SE10BMW-E90-011X.JPG, CamelFilePath=data\srv-img-tmp\modele\SE10BMW-E90-011X.JPG, CamelFileLastModified=Mon Apr 16 15:44:55 CEST 2012, CamelFileParent=data\srv-img-tmp\modele, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-tmp\modele\SE10BMW-E90-011X.JPG}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-011X.JPG]]
+, Out: null
+]
+53972 [Camel (camel-1) thread #2 - file://data/srv-img-tmp/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55182-1334583842497-0-28
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:44:55 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-012X.JPG], CamelBatchIndex=2}
+, Headers:{CamelFileParent=data\srv-img-tmp\modele, CamelFileRelativePath=SE10BMW-E90-012X.JPG, breadcrumbId=ID-MAURIN-55182-1334583842497-0-27, CamelFileLength=18509, CamelFileName=SE10BMW-E90-012X.JPG, CamelFileNameOnly=SE10BMW-E90-012X.JPG, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-tmp\modele\SE10BMW-E90-012X.JPG, CamelFileLastModified=Mon Apr 16 15:44:55 CEST 2012, CamelFilePath=data\srv-img-tmp\modele\SE10BMW-E90-012X.JPG, CamelFileAbsolute=false}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-012X.JPG]]
+, Out: null
+]
+53981 [Camel (camel-1) thread #2 - file://data/srv-img-tmp/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55182-1334583842497-0-30
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:44:55 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-013X.JPG], CamelBatchIndex=3}
+, Headers:{breadcrumbId=ID-MAURIN-55182-1334583842497-0-29, CamelFilePath=data\srv-img-tmp\modele\SE10BMW-E90-013X.JPG, CamelFileRelativePath=SE10BMW-E90-013X.JPG, CamelFileName=SE10BMW-E90-013X.JPG, CamelFileLastModified=Mon Apr 16 15:44:55 CEST 2012, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-tmp\modele\SE10BMW-E90-013X.JPG, CamelFileLength=22720, CamelFileAbsolute=false, CamelFileParent=data\srv-img-tmp\modele, CamelFileNameOnly=SE10BMW-E90-013X.JPG}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-013X.JPG]]
+, Out: null
+]
+53993 [Camel (camel-1) thread #2 - file://data/srv-img-tmp/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55182-1334583842497-0-32
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:44:55 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-014X.JPG], CamelBatchIndex=4}
+, Headers:{CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-tmp\modele\SE10BMW-E90-014X.JPG, CamelFileRelativePath=SE10BMW-E90-014X.JPG, breadcrumbId=ID-MAURIN-55182-1334583842497-0-31, CamelFilePath=data\srv-img-tmp\modele\SE10BMW-E90-014X.JPG, CamelFileName=SE10BMW-E90-014X.JPG, CamelFileAbsolute=false, CamelFileLastModified=Mon Apr 16 15:44:55 CEST 2012, CamelFileParent=data\srv-img-tmp\modele, CamelFileLength=21417, CamelFileNameOnly=SE10BMW-E90-014X.JPG}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-014X.JPG]]
+, Out: null
+]
+54002 [Camel (camel-1) thread #2 - file://data/srv-img-tmp/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55182-1334583842497-0-34
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:44:55 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-015X.JPG], CamelBatchIndex=5}
+, Headers:{CamelFileName=SE10BMW-E90-015X.JPG, CamelFileParent=data\srv-img-tmp\modele, CamelFileLength=15763, CamelFileRelativePath=SE10BMW-E90-015X.JPG, CamelFileAbsolute=false, CamelFileLastModified=Mon Apr 16 15:44:55 CEST 2012, CamelFilePath=data\srv-img-tmp\modele\SE10BMW-E90-015X.JPG, breadcrumbId=ID-MAURIN-55182-1334583842497-0-33, CamelFileNameOnly=SE10BMW-E90-015X.JPG, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-tmp\modele\SE10BMW-E90-015X.JPG}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-015X.JPG]]
+, Out: null
+]
+54010 [Camel (camel-1) thread #2 - file://data/srv-img-tmp/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55182-1334583842497-0-36
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:44:55 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-016X.JPG], CamelBatchIndex=6}
+, Headers:{CamelFileLength=29123, CamelFileParent=data\srv-img-tmp\modele, CamelFileRelativePath=SE10BMW-E90-016X.JPG, CamelFileNameOnly=SE10BMW-E90-016X.JPG, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-tmp\modele\SE10BMW-E90-016X.JPG, CamelFileName=SE10BMW-E90-016X.JPG, CamelFileAbsolute=false, CamelFileLastModified=Mon Apr 16 15:44:55 CEST 2012, breadcrumbId=ID-MAURIN-55182-1334583842497-0-35, CamelFilePath=data\srv-img-tmp\modele\SE10BMW-E90-016X.JPG}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-016X.JPG]]
+, Out: null
+]
+54019 [Camel (camel-1) thread #2 - file://data/srv-img-tmp/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55182-1334583842497-0-38
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:44:55 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-017X.JPG], CamelBatchIndex=7}
+, Headers:{CamelFileParent=data\srv-img-tmp\modele, CamelFileNameOnly=SE10BMW-E90-017X.JPG, CamelFileLastModified=Mon Apr 16 15:44:55 CEST 2012, CamelFileName=SE10BMW-E90-017X.JPG, CamelFileLength=24205, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-tmp\modele\SE10BMW-E90-017X.JPG, CamelFilePath=data\srv-img-tmp\modele\SE10BMW-E90-017X.JPG, breadcrumbId=ID-MAURIN-55182-1334583842497-0-37, CamelFileRelativePath=SE10BMW-E90-017X.JPG, CamelFileAbsolute=false}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-017X.JPG]]
+, Out: null
+]
+54026 [Camel (camel-1) thread #2 - file://data/srv-img-tmp/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55182-1334583842497-0-40
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:44:55 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-018X.JPG], CamelBatchIndex=8}
+, Headers:{CamelFileLastModified=Mon Apr 16 15:44:55 CEST 2012, CamelFileLength=22439, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-tmp\modele\SE10BMW-E90-018X.JPG, CamelFileName=SE10BMW-E90-018X.JPG, CamelFilePath=data\srv-img-tmp\modele\SE10BMW-E90-018X.JPG, breadcrumbId=ID-MAURIN-55182-1334583842497-0-39, CamelFileNameOnly=SE10BMW-E90-018X.JPG, CamelFileAbsolute=false, CamelFileRelativePath=SE10BMW-E90-018X.JPG, CamelFileParent=data\srv-img-tmp\modele}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-018X.JPG]]
+, Out: null
+]
+54033 [Camel (camel-1) thread #2 - file://data/srv-img-tmp/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55182-1334583842497-0-42
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:44:55 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-019X.JPG], CamelBatchIndex=9}
+, Headers:{CamelFilePath=data\srv-img-tmp\modele\SE10BMW-E90-019X.JPG, breadcrumbId=ID-MAURIN-55182-1334583842497-0-41, CamelFileParent=data\srv-img-tmp\modele, CamelFileRelativePath=SE10BMW-E90-019X.JPG, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-tmp\modele\SE10BMW-E90-019X.JPG, CamelFileNameOnly=SE10BMW-E90-019X.JPG, CamelFileAbsolute=false, CamelFileLastModified=Mon Apr 16 15:44:55 CEST 2012, CamelFileLength=24896, CamelFileName=SE10BMW-E90-019X.JPG}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-019X.JPG]]
+, Out: null
+]
+54041 [Camel (camel-1) thread #2 - file://data/srv-img-tmp/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55182-1334583842497-0-44
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=true, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:44:55 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-020X.JPG], CamelBatchIndex=10}
+, Headers:{CamelFileName=SE10BMW-E90-020X.JPG, CamelFileParent=data\srv-img-tmp\modele, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-tmp\modele\SE10BMW-E90-020X.JPG, CamelFileLength=24125, CamelFilePath=data\srv-img-tmp\modele\SE10BMW-E90-020X.JPG, breadcrumbId=ID-MAURIN-55182-1334583842497-0-43, CamelFileRelativePath=SE10BMW-E90-020X.JPG, CamelFileNameOnly=SE10BMW-E90-020X.JPG, CamelFileLastModified=Mon Apr 16 15:44:55 CEST 2012, CamelFileAbsolute=false}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-020X.JPG]]
+, Out: null
+]
+2261 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55248-1334584206007-0-2
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:50:07 CEST 2012, CamelFileExchangeFile=GenericFile[PL.ENT-E90-ESS.JPG], CamelBatchIndex=0}
+, Headers:{CamelFileAbsolute=false, CamelFileRelativePath=PL.ENT-E90-ESS.JPG, breadcrumbId=ID-MAURIN-55248-1334584206007-0-1, CamelFilePath=data\srv-img-prod\modele\PL.ENT-E90-ESS.JPG, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-prod\modele\PL.ENT-E90-ESS.JPG, CamelFileParent=data\srv-img-prod\modele, CamelFileName=PL.ENT-E90-ESS.JPG, CamelFileLength=121975, CamelFileLastModified=Mon Apr 16 15:44:55 CEST 2012, CamelFileNameOnly=PL.ENT-E90-ESS.JPG}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[PL.ENT-E90-ESS.JPG]]
+, Out: null
+]
+2268 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai.ImagesServerResizeProcessor  - Process PL.ENT-E90-ESS.JPG
+2282 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55248-1334584206007-0-4
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:50:07 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-011X.JPG], CamelBatchIndex=1}
+, Headers:{CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-prod\modele\SE10BMW-E90-011X.JPG, breadcrumbId=ID-MAURIN-55248-1334584206007-0-3, CamelFileNameOnly=SE10BMW-E90-011X.JPG, CamelFileParent=data\srv-img-prod\modele, CamelFileLength=23267, CamelFileRelativePath=SE10BMW-E90-011X.JPG, CamelFileName=SE10BMW-E90-011X.JPG, CamelFileAbsolute=false, CamelFileLastModified=Mon Apr 16 15:44:55 CEST 2012, CamelFilePath=data\srv-img-prod\modele\SE10BMW-E90-011X.JPG}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-011X.JPG]]
+, Out: null
+]
+2282 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai.ImagesServerResizeProcessor  - Process SE10BMW-E90-011X.JPG
+2289 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55248-1334584206007-0-6
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:50:07 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-012X.JPG], CamelBatchIndex=2}
+, Headers:{CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-prod\modele\SE10BMW-E90-012X.JPG, CamelFileRelativePath=SE10BMW-E90-012X.JPG, breadcrumbId=ID-MAURIN-55248-1334584206007-0-5, CamelFileParent=data\srv-img-prod\modele, CamelFileName=SE10BMW-E90-012X.JPG, CamelFileLastModified=Mon Apr 16 15:44:55 CEST 2012, CamelFileLength=18509, CamelFilePath=data\srv-img-prod\modele\SE10BMW-E90-012X.JPG, CamelFileNameOnly=SE10BMW-E90-012X.JPG, CamelFileAbsolute=false}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-012X.JPG]]
+, Out: null
+]
+2289 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai.ImagesServerResizeProcessor  - Process SE10BMW-E90-012X.JPG
+2295 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55248-1334584206007-0-8
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:50:07 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-013X.JPG], CamelBatchIndex=3}
+, Headers:{CamelFileAbsolute=false, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-prod\modele\SE10BMW-E90-013X.JPG, CamelFileRelativePath=SE10BMW-E90-013X.JPG, CamelFileLastModified=Mon Apr 16 15:44:55 CEST 2012, CamelFileName=SE10BMW-E90-013X.JPG, CamelFilePath=data\srv-img-prod\modele\SE10BMW-E90-013X.JPG, CamelFileParent=data\srv-img-prod\modele, CamelFileLength=22720, breadcrumbId=ID-MAURIN-55248-1334584206007-0-7, CamelFileNameOnly=SE10BMW-E90-013X.JPG}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-013X.JPG]]
+, Out: null
+]
+2295 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai.ImagesServerResizeProcessor  - Process SE10BMW-E90-013X.JPG
+2301 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55248-1334584206007-0-10
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:50:07 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-014X.JPG], CamelBatchIndex=4}
+, Headers:{CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-prod\modele\SE10BMW-E90-014X.JPG, breadcrumbId=ID-MAURIN-55248-1334584206007-0-9, CamelFileParent=data\srv-img-prod\modele, CamelFileName=SE10BMW-E90-014X.JPG, CamelFileLastModified=Mon Apr 16 15:44:55 CEST 2012, CamelFileAbsolute=false, CamelFileRelativePath=SE10BMW-E90-014X.JPG, CamelFilePath=data\srv-img-prod\modele\SE10BMW-E90-014X.JPG, CamelFileNameOnly=SE10BMW-E90-014X.JPG, CamelFileLength=21417}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-014X.JPG]]
+, Out: null
+]
+2301 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai.ImagesServerResizeProcessor  - Process SE10BMW-E90-014X.JPG
+2308 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55248-1334584206007-0-12
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:50:07 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-015X.JPG], CamelBatchIndex=5}
+, Headers:{CamelFileName=SE10BMW-E90-015X.JPG, CamelFileParent=data\srv-img-prod\modele, breadcrumbId=ID-MAURIN-55248-1334584206007-0-11, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-prod\modele\SE10BMW-E90-015X.JPG, CamelFileRelativePath=SE10BMW-E90-015X.JPG, CamelFileLength=15763, CamelFileLastModified=Mon Apr 16 15:44:55 CEST 2012, CamelFileNameOnly=SE10BMW-E90-015X.JPG, CamelFilePath=data\srv-img-prod\modele\SE10BMW-E90-015X.JPG, CamelFileAbsolute=false}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-015X.JPG]]
+, Out: null
+]
+2308 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai.ImagesServerResizeProcessor  - Process SE10BMW-E90-015X.JPG
+2316 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55248-1334584206007-0-14
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:50:07 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-016X.JPG], CamelBatchIndex=6}
+, Headers:{CamelFilePath=data\srv-img-prod\modele\SE10BMW-E90-016X.JPG, CamelFileNameOnly=SE10BMW-E90-016X.JPG, CamelFileLength=29123, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-prod\modele\SE10BMW-E90-016X.JPG, breadcrumbId=ID-MAURIN-55248-1334584206007-0-13, CamelFileName=SE10BMW-E90-016X.JPG, CamelFileRelativePath=SE10BMW-E90-016X.JPG, CamelFileParent=data\srv-img-prod\modele, CamelFileLastModified=Mon Apr 16 15:44:55 CEST 2012, CamelFileAbsolute=false}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-016X.JPG]]
+, Out: null
+]
+2316 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai.ImagesServerResizeProcessor  - Process SE10BMW-E90-016X.JPG
+2322 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55248-1334584206007-0-16
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:50:07 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-017X.JPG], CamelBatchIndex=7}
+, Headers:{breadcrumbId=ID-MAURIN-55248-1334584206007-0-15, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-prod\modele\SE10BMW-E90-017X.JPG, CamelFileLastModified=Mon Apr 16 15:44:55 CEST 2012, CamelFilePath=data\srv-img-prod\modele\SE10BMW-E90-017X.JPG, CamelFileLength=24205, CamelFileName=SE10BMW-E90-017X.JPG, CamelFileNameOnly=SE10BMW-E90-017X.JPG, CamelFileParent=data\srv-img-prod\modele, CamelFileRelativePath=SE10BMW-E90-017X.JPG, CamelFileAbsolute=false}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-017X.JPG]]
+, Out: null
+]
+2322 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai.ImagesServerResizeProcessor  - Process SE10BMW-E90-017X.JPG
+2328 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55248-1334584206007-0-18
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:50:07 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-018X.JPG], CamelBatchIndex=8}
+, Headers:{CamelFileRelativePath=SE10BMW-E90-018X.JPG, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-prod\modele\SE10BMW-E90-018X.JPG, CamelFilePath=data\srv-img-prod\modele\SE10BMW-E90-018X.JPG, CamelFileParent=data\srv-img-prod\modele, CamelFileLength=22439, CamelFileName=SE10BMW-E90-018X.JPG, CamelFileLastModified=Mon Apr 16 15:44:55 CEST 2012, CamelFileAbsolute=false, CamelFileNameOnly=SE10BMW-E90-018X.JPG, breadcrumbId=ID-MAURIN-55248-1334584206007-0-17}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-018X.JPG]]
+, Out: null
+]
+2328 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai.ImagesServerResizeProcessor  - Process SE10BMW-E90-018X.JPG
+2335 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55248-1334584206007-0-20
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:50:07 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-019X.JPG], CamelBatchIndex=9}
+, Headers:{CamelFileLength=24896, breadcrumbId=ID-MAURIN-55248-1334584206007-0-19, CamelFileNameOnly=SE10BMW-E90-019X.JPG, CamelFileName=SE10BMW-E90-019X.JPG, CamelFileParent=data\srv-img-prod\modele, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-prod\modele\SE10BMW-E90-019X.JPG, CamelFileAbsolute=false, CamelFileLastModified=Mon Apr 16 15:44:55 CEST 2012, CamelFileRelativePath=SE10BMW-E90-019X.JPG, CamelFilePath=data\srv-img-prod\modele\SE10BMW-E90-019X.JPG}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-019X.JPG]]
+, Out: null
+]
+2335 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai.ImagesServerResizeProcessor  - Process SE10BMW-E90-019X.JPG
+2341 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55248-1334584206007-0-22
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=true, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:50:07 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-020X.JPG], CamelBatchIndex=10}
+, Headers:{CamelFileName=SE10BMW-E90-020X.JPG, CamelFileNameOnly=SE10BMW-E90-020X.JPG, CamelFileLastModified=Mon Apr 16 15:44:55 CEST 2012, CamelFileLength=24125, breadcrumbId=ID-MAURIN-55248-1334584206007-0-21, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-prod\modele\SE10BMW-E90-020X.JPG, CamelFileParent=data\srv-img-prod\modele, CamelFileRelativePath=SE10BMW-E90-020X.JPG, CamelFilePath=data\srv-img-prod\modele\SE10BMW-E90-020X.JPG, CamelFileAbsolute=false}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-020X.JPG]]
+, Out: null
+]
+2341 [Camel (camel-1) thread #1 - file://data/srv-img-prod/modele] INFO  fr.etai.ImagesServerResizeProcessor  - Process SE10BMW-E90-020X.JPG
+2750 [Camel (camel-1) thread #2 - file://data/srv-img-tmp/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55248-1334584206007-0-24
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:50:07 CEST 2012, CamelFileExchangeFile=GenericFile[PL.ENT-E90-ESS.JPG], CamelBatchIndex=0}
+, Headers:{CamelFileNameOnly=PL.ENT-E90-ESS.JPG, CamelFileName=PL.ENT-E90-ESS.JPG, CamelFilePath=data\srv-img-tmp\modele\PL.ENT-E90-ESS.JPG, CamelFileLastModified=Mon Apr 16 15:50:07 CEST 2012, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-tmp\modele\PL.ENT-E90-ESS.JPG, CamelFileRelativePath=PL.ENT-E90-ESS.JPG, CamelFileParent=data\srv-img-tmp\modele, CamelFileAbsolute=false, CamelFileLength=121975, breadcrumbId=ID-MAURIN-55248-1334584206007-0-23}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[PL.ENT-E90-ESS.JPG]]
+, Out: null
+]
+2766 [Camel (camel-1) thread #2 - file://data/srv-img-tmp/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55248-1334584206007-0-26
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:50:08 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-011X.JPG], CamelBatchIndex=1}
+, Headers:{CamelFileName=SE10BMW-E90-011X.JPG, CamelFileRelativePath=SE10BMW-E90-011X.JPG, CamelFileAbsolute=false, breadcrumbId=ID-MAURIN-55248-1334584206007-0-25, CamelFileLength=23267, CamelFileNameOnly=SE10BMW-E90-011X.JPG, CamelFilePath=data\srv-img-tmp\modele\SE10BMW-E90-011X.JPG, CamelFileLastModified=Mon Apr 16 15:50:07 CEST 2012, CamelFileParent=data\srv-img-tmp\modele, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-tmp\modele\SE10BMW-E90-011X.JPG}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-011X.JPG]]
+, Out: null
+]
+2780 [Camel (camel-1) thread #2 - file://data/srv-img-tmp/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55248-1334584206007-0-28
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:50:08 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-012X.JPG], CamelBatchIndex=2}
+, Headers:{CamelFileParent=data\srv-img-tmp\modele, CamelFileRelativePath=SE10BMW-E90-012X.JPG, breadcrumbId=ID-MAURIN-55248-1334584206007-0-27, CamelFileLength=18509, CamelFileName=SE10BMW-E90-012X.JPG, CamelFileNameOnly=SE10BMW-E90-012X.JPG, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-tmp\modele\SE10BMW-E90-012X.JPG, CamelFileLastModified=Mon Apr 16 15:50:07 CEST 2012, CamelFilePath=data\srv-img-tmp\modele\SE10BMW-E90-012X.JPG, CamelFileAbsolute=false}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-012X.JPG]]
+, Out: null
+]
+2790 [Camel (camel-1) thread #2 - file://data/srv-img-tmp/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55248-1334584206007-0-30
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:50:08 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-013X.JPG], CamelBatchIndex=3}
+, Headers:{breadcrumbId=ID-MAURIN-55248-1334584206007-0-29, CamelFilePath=data\srv-img-tmp\modele\SE10BMW-E90-013X.JPG, CamelFileRelativePath=SE10BMW-E90-013X.JPG, CamelFileName=SE10BMW-E90-013X.JPG, CamelFileLastModified=Mon Apr 16 15:50:07 CEST 2012, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-tmp\modele\SE10BMW-E90-013X.JPG, CamelFileLength=22720, CamelFileAbsolute=false, CamelFileParent=data\srv-img-tmp\modele, CamelFileNameOnly=SE10BMW-E90-013X.JPG}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-013X.JPG]]
+, Out: null
+]
+2798 [Camel (camel-1) thread #2 - file://data/srv-img-tmp/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55248-1334584206007-0-32
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:50:08 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-014X.JPG], CamelBatchIndex=4}
+, Headers:{CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-tmp\modele\SE10BMW-E90-014X.JPG, CamelFileRelativePath=SE10BMW-E90-014X.JPG, breadcrumbId=ID-MAURIN-55248-1334584206007-0-31, CamelFilePath=data\srv-img-tmp\modele\SE10BMW-E90-014X.JPG, CamelFileName=SE10BMW-E90-014X.JPG, CamelFileAbsolute=false, CamelFileLastModified=Mon Apr 16 15:50:07 CEST 2012, CamelFileParent=data\srv-img-tmp\modele, CamelFileLength=21417, CamelFileNameOnly=SE10BMW-E90-014X.JPG}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-014X.JPG]]
+, Out: null
+]
+2805 [Camel (camel-1) thread #2 - file://data/srv-img-tmp/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55248-1334584206007-0-34
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:50:08 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-015X.JPG], CamelBatchIndex=5}
+, Headers:{CamelFileName=SE10BMW-E90-015X.JPG, CamelFileParent=data\srv-img-tmp\modele, CamelFileLength=15763, CamelFileRelativePath=SE10BMW-E90-015X.JPG, CamelFileAbsolute=false, CamelFileLastModified=Mon Apr 16 15:50:07 CEST 2012, CamelFilePath=data\srv-img-tmp\modele\SE10BMW-E90-015X.JPG, breadcrumbId=ID-MAURIN-55248-1334584206007-0-33, CamelFileNameOnly=SE10BMW-E90-015X.JPG, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-tmp\modele\SE10BMW-E90-015X.JPG}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-015X.JPG]]
+, Out: null
+]
+2813 [Camel (camel-1) thread #2 - file://data/srv-img-tmp/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55248-1334584206007-0-36
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:50:08 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-016X.JPG], CamelBatchIndex=6}
+, Headers:{CamelFileLength=29123, CamelFileParent=data\srv-img-tmp\modele, CamelFileRelativePath=SE10BMW-E90-016X.JPG, CamelFileNameOnly=SE10BMW-E90-016X.JPG, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-tmp\modele\SE10BMW-E90-016X.JPG, CamelFileName=SE10BMW-E90-016X.JPG, CamelFileAbsolute=false, CamelFileLastModified=Mon Apr 16 15:50:07 CEST 2012, breadcrumbId=ID-MAURIN-55248-1334584206007-0-35, CamelFilePath=data\srv-img-tmp\modele\SE10BMW-E90-016X.JPG}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-016X.JPG]]
+, Out: null
+]
+2822 [Camel (camel-1) thread #2 - file://data/srv-img-tmp/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55248-1334584206007-0-38
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:50:08 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-017X.JPG], CamelBatchIndex=7}
+, Headers:{CamelFileParent=data\srv-img-tmp\modele, CamelFileNameOnly=SE10BMW-E90-017X.JPG, CamelFileLastModified=Mon Apr 16 15:50:07 CEST 2012, CamelFileName=SE10BMW-E90-017X.JPG, CamelFileLength=24205, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-tmp\modele\SE10BMW-E90-017X.JPG, CamelFilePath=data\srv-img-tmp\modele\SE10BMW-E90-017X.JPG, breadcrumbId=ID-MAURIN-55248-1334584206007-0-37, CamelFileRelativePath=SE10BMW-E90-017X.JPG, CamelFileAbsolute=false}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-017X.JPG]]
+, Out: null
+]
+2828 [Camel (camel-1) thread #2 - file://data/srv-img-tmp/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55248-1334584206007-0-40
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:50:08 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-018X.JPG], CamelBatchIndex=8}
+, Headers:{CamelFileLastModified=Mon Apr 16 15:50:07 CEST 2012, CamelFileLength=22439, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-tmp\modele\SE10BMW-E90-018X.JPG, CamelFileName=SE10BMW-E90-018X.JPG, CamelFilePath=data\srv-img-tmp\modele\SE10BMW-E90-018X.JPG, breadcrumbId=ID-MAURIN-55248-1334584206007-0-39, CamelFileNameOnly=SE10BMW-E90-018X.JPG, CamelFileAbsolute=false, CamelFileRelativePath=SE10BMW-E90-018X.JPG, CamelFileParent=data\srv-img-tmp\modele}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-018X.JPG]]
+, Out: null
+]
+2838 [Camel (camel-1) thread #2 - file://data/srv-img-tmp/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55248-1334584206007-0-42
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=false, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:50:08 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-019X.JPG], CamelBatchIndex=9}
+, Headers:{CamelFilePath=data\srv-img-tmp\modele\SE10BMW-E90-019X.JPG, breadcrumbId=ID-MAURIN-55248-1334584206007-0-41, CamelFileParent=data\srv-img-tmp\modele, CamelFileRelativePath=SE10BMW-E90-019X.JPG, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-tmp\modele\SE10BMW-E90-019X.JPG, CamelFileNameOnly=SE10BMW-E90-019X.JPG, CamelFileAbsolute=false, CamelFileLastModified=Mon Apr 16 15:50:07 CEST 2012, CamelFileLength=24896, CamelFileName=SE10BMW-E90-019X.JPG}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-019X.JPG]]
+, Out: null
+]
+2845 [Camel (camel-1) thread #2 - file://data/srv-img-tmp/modele] INFO  fr.etai  - Exchange[
+, Id:ID-MAURIN-55248-1334584206007-0-44
+, ExchangePattern:InOnly
+, Properties:{CamelToEndpoint=log://fr.etai?multiline=true&showAll=true, CamelBatchComplete=true, CamelBatchSize=11, CamelCreatedTimestamp=Mon Apr 16 15:50:08 CEST 2012, CamelFileExchangeFile=GenericFile[SE10BMW-E90-020X.JPG], CamelBatchIndex=10}
+, Headers:{CamelFileName=SE10BMW-E90-020X.JPG, CamelFileParent=data\srv-img-tmp\modele, CamelFileAbsolutePath=C:\etai\dev\images-server\images-server-camel\data\srv-img-tmp\modele\SE10BMW-E90-020X.JPG, CamelFileLength=24125, CamelFilePath=data\srv-img-tmp\modele\SE10BMW-E90-020X.JPG, breadcrumbId=ID-MAURIN-55248-1334584206007-0-43, CamelFileRelativePath=SE10BMW-E90-020X.JPG, CamelFileNameOnly=SE10BMW-E90-020X.JPG, CamelFileLastModified=Mon Apr 16 15:50:07 CEST 2012, CamelFileAbsolute=false}
+, BodyType:org.apache.camel.component.file.GenericFile
+, Body:[Body is file based: GenericFile[SE10BMW-E90-020X.JPG]]
+, Out: null
+]
