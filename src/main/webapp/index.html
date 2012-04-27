@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>iServer</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-language" content="fr" />
+<link rel="stylesheet" type="text/css" title="Trontastic" href="stylesheets/bootstrap.css" />
+<link rel="stylesheet" type="text/css" title="Trontastic" href="stylesheets/bootstrap-responsive.css" />
+<script type="text/javascript" src="javascripts/jquery.js"></script>
+<script type="text/javascript" src="javascripts/crypto.js"></script>
+<script type="text/javascript" src="javascripts/md5.js"></script>
+<script type="text/javascript" src="javascripts/hmac.js"></script>
+<link rel="shortcut icon" type="images/x-icon" href="images/share.png" />
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<br />
+		</header>
+		<div class="hero-unit" style="text-align: center">
+			<h1>&raquo; Welcome to iServer</h1>
+			<p>The image server to E.T.A.I</p>
+			<p>
+				<a class="btn btn-primary btn-large" href="rest/ui/about/">Learn more</a>
+			</p>
+		</div>
+
+
+		<div class="row">
+			<div class="span6">
+				<h1>
+					With <a href="http://en.wikipedia.org/wiki/HMAC">HMAC</a>
+				</h1>
+				<div class="thumbnails">
+					<div class="span5">
+						<form name="searchImage" class="well form-search" method="get">
+							<fieldset>
+								<label>Enter a image's name</label> <input type="text" class="input-medium search-query" id="imageToSearchWithHmac">
+								<button type="submit" class="btn" onclick="return displayImage('imageToSearchWithHmac', 'imageToDisplayWithHmac', true)">Display</button>
+							</fieldset>
+						</form>
+					</div>
+					<div class="span5">
+						<div class="thumbnail">
+							<img id="imageToDisplayWithHmac" alt="Image to display" src="" width="150px" height="150px" />
+							<p id="caption"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="span6">
+				<h1>
+					Without <a href="http://en.wikipedia.org/wiki/HMAC">HMAC</a>
+				</h1>
+				<div class="thumbnails">
+					<div class="span5">
+						<form name="searchImage" class="well form-search" method="get">
+							<fieldset>
+								<label>Enter a image's name</label> <input type="text" class="input-medium search-query" id="imageToSearchWithoutHmac">
+								<button type="submit" class="btn" onclick="return displayImage('imageToSearchWithoutHmac', 'imageToDisplayWithoutHmac', false)">Display</button>
+							</fieldset>
+						</form>
+					</div>
+					<div class="span5">
+						<div class="thumbnail">
+							<img id="imageToDisplayWithoutHmac" alt="Image to display" src="" width="150px" height="150px" />
+							<p id="caption"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		function displayImage(imageToSearchId, imageToDisplayId, useHMAC) {
+
+			// image-url
+			var url = 'rest/images/'
+					+ document.getElementById(imageToSearchId).value;
+
+			// request
+			var xhr = new XMLHttpRequest();
+			xhr.open("GET", url, false);
+			xhr.overrideMimeType('text/plain; charset=x-user-defined');
+			if (useHMAC) {
+				xhr.setRequestHeader("hmac", hmacMd5());
+			}
+			xhr.send(null);
+
+			// img to set
+			var img = document.getElementById(imageToDisplayId);
+
+			// handle response
+			if (xhr.status == 200) {
+				var responseText = xhr.responseText;
+				var responseTextLen = responseText.length;
+				var binary = ''
+				for ( var i = 0; i < responseTextLen; i += 1) {
+					binary += String
+							.fromCharCode(responseText.charCodeAt(i) & 0xff)
+				}
+				img.src = "data:image/jpeg;base64," + window.btoa(binary);
+			} else {
+				img.src = '';
+				img.alt = xhr.status == 405 ? 'Not allowed' : 'Not found';
+			}
+
+			return false; // no reloading page !!! */
+		}
+
+		function hmacMd5() {
+			var applicationName = 'a';
+			var secretKey = 'secretKey';
+			return applicationName + ":"
+					+ Crypto.HMAC(Crypto.MD5, applicationName, secretKey);
+		}
+	</script>
+</body>
+</html>

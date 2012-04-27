@@ -1,0 +1,62 @@
+digraph CamelRoutes {
+
+node [style = "rounded,filled", fillcolor = yellow, fontname="Helvetica-Oblique"];
+
+subgraph cluster_0 {
+label = "fr.etai.ImagesServerRouteBuilder";
+color = grey;
+style = "dashed";
+URL = "fr.etai.ImagesServerRouteBuilder.html";
+
+
+node1 [
+label = "file:data/srv-img-prod/modele"
+tooltip = "file:data/srv-img-prod/modele?noop=true"
+URL = "http://camel.apache.org/message-endpoint.html"
+];
+
+
+node2 [
+label = "log:fr.etai"
+tooltip = "log:fr.etai?showAll=true&multiline=true"
+URL = "http://camel.apache.org/message-endpoint.html"
+];
+
+node1 -> node2 [
+];
+
+node3 [
+label = "Process Definition"
+tooltip = "Process Definition: fr.etai.ImagesServerResizeProcessor@7cf883"
+URL = "http://camel.apache.org/process-definition.html"
+shape = "box"
+];
+
+node2 -> node3 [
+];
+
+node4 [
+label = "file:data/srv-img-tmp/modele"
+tooltip = "file:data/srv-img-tmp/modele"
+URL = "http://camel.apache.org/message-endpoint.html"
+];
+
+node3 -> node4 [
+label = "fr.etai.ImagesServerResizeProcessor@7cf883"
+];
+
+node4 -> node2 [
+];
+
+node5 [
+label = "file:data/srv-img-exploit/modele"
+tooltip = "file:data/srv-img-exploit/modele"
+URL = "http://camel.apache.org/message-endpoint.html"
+];
+
+node2 -> node5 [
+];
+
+}
+
+}
