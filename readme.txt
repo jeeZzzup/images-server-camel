@@ -1,20 +1,18 @@
+ 
+ ####### Images Server ##########
 
-# Commons tools
-## security rest-service : spring-security, OAuth...
-## question ? 
-### data are sensible ? 
-### ??
-### no access to a image if none authorization -> by application client
-### no able to determine the URL to get a image -> token ? 
-### 
-## logging 
-## monitoring
+Frameworks : 
+- Jersey for the rest-services implementation
+- Apache Camel for eip-implementation
 
-# Back-end 
-## consume images from content-tools : [eip] Apache-Camel
+Features :
+- provides an image from an identifier
+- retrieves the directory's images files
+- publishes specific images
+- controls the images server
 
-# Front-end
-## rest-service to access to a image by #refId
-## rest-service to publish a image into the image-server
-## rest-service to control the content of the image-server
+Others Features :
+- secure access to services : HMAC (alternatives : OAuth, Spring-security
+- logging all services access
+- monitoring all services access
 
