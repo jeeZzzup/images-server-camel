@@ -7,6 +7,4 @@
 target
 .classpath
 .project
-
-# Ignore mongo directory
-mongodb-win32-i386-2.0.4
+WebContent
