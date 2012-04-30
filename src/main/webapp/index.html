@@ -23,21 +23,24 @@
 		</header>
 		<div class="hero-unit" style="text-align: center">
 			<h1>&raquo; Welcome to iServer</h1>
-			<p>The image server to E.T.A.I</p>
+			<p>The images server</p>
 			<p>
-				<a class="btn btn-primary btn-large" href="rest/ui/about/">Learn more</a>
+				<a class="btn btn-primary btn-large" href="rest/pooling/about/">Learn more</a>
 			</p>
 		</div>
 
-
 		<div class="row">
+			<div class="span12">
+				<h1>Access to images</h1>
+				<br />
+			</div>
 			<div class="span6">
-				<h1>
+				<h2>
 					With <a href="http://en.wikipedia.org/wiki/HMAC">HMAC</a>
-				</h1>
+				</h2>
 				<div class="thumbnails">
 					<div class="span5">
-						<form name="searchImage" class="well form-search" method="get">
+						<form name="searchImage" class="well form-search">
 							<fieldset>
 								<label>Enter a image's name</label> <input type="text" class="input-medium search-query" id="imageToSearchWithHmac">
 								<button type="submit" class="btn" onclick="return displayImage('imageToSearchWithHmac', 'imageToDisplayWithHmac', true)">Display</button>
@@ -53,12 +56,12 @@
 				</div>
 			</div>
 			<div class="span6">
-				<h1>
+				<h2>
 					Without <a href="http://en.wikipedia.org/wiki/HMAC">HMAC</a>
-				</h1>
+				</h2>
 				<div class="thumbnails">
 					<div class="span5">
-						<form name="searchImage" class="well form-search" method="get">
+						<form name="searchImage" class="well form-search">
 							<fieldset>
 								<label>Enter a image's name</label> <input type="text" class="input-medium search-query" id="imageToSearchWithoutHmac">
 								<button type="submit" class="btn" onclick="return displayImage('imageToSearchWithoutHmac', 'imageToDisplayWithoutHmac', false)">Display</button>
@@ -74,9 +77,13 @@
 				</div>
 			</div>
 		</div>
+
 	</div>
 
 	<script type="text/javascript">
+		/**
+		 * Display an image from this imageToSearchId input text to imageToDisplayId using or ot a hmac header.
+		 */
 		function displayImage(imageToSearchId, imageToDisplayId, useHMAC) {
 
 			// image-url

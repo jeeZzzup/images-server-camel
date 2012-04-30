@@ -3,8 +3,6 @@ package fr.etai.iserver.rest;
 import java.io.File;
 
 import javax.activation.MimetypesFileTypeMap;
-import javax.crypto.Mac;
-import javax.crypto.spec.SecretKeySpec;
 import javax.ws.rs.GET;
 import javax.ws.rs.HeaderParam;
 import javax.ws.rs.Path;
@@ -16,11 +14,20 @@ import javax.ws.rs.core.Response;
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+import fr.etai.iserver.dao.ImagesDao;
+import fr.etai.iserver.security.HmacService;
+
+@Component
 @Path("/")
 public class ImagesAccessorService {
 
-	Logger logger = LoggerFactory.getLogger(ImagesAccessorService.class);
+	final Logger logger = LoggerFactory.getLogger(ImagesAccessorService.class);
+
+	@Autowired
+	private ImagesDao imagesDao;
 
 	@GET
 	@Path("/images/{image}")
@@ -29,56 +36,16 @@ public class ImagesAccessorService {
 	String hmac, @PathParam("image")
 	String image) {
 
-		if (StringUtils.isEmpty(hmac) || !accept(hmac)) {
-			throw new WebApplicationException(405); // TODO
+		if (StringUtils.isEmpty(hmac) || !new HmacService().accept(hmac)) {
+			throw new WebApplicationException(405); // forbidden
 		}
 
-		File f = new File("C://images//" + image);
-		if (!f.exists()) {
-			throw new WebApplicationException(404); // TODO
+		File file = imagesDao.getFileByName(image);
+		if (null == file) {
+			throw new WebApplicationException(404); // not found
 		}
 
-		String mt = new MimetypesFileTypeMap().getContentType(f);
-		return Response.ok(f, mt).build();
-	}
-
-	private boolean accept(String hmac) {
-
-		String[] splittedHmac = hmac.split(":");
-		String messageToEncryptWithHmac = splittedHmac[0];
-		String messageEncryptedWithHmac = splittedHmac[1];
-
-		try {
-			String hmacMd5 = hmacMd5(messageToEncryptWithHmac, "secretKey");
-			logger.info(" ? [{}] == [{}]", messageEncryptedWithHmac, hmacMd5);
-			return messageEncryptedWithHmac.equals(hmacMd5);
-		}
-		catch (Exception e) {
-			logger.error(e.getMessage());
-		}
-		return false;
-	}
-
-	private String hmacMd5(String data, String key) throws Exception {
-
-		SecretKeySpec secretKey = new SecretKeySpec(key.getBytes(), "HmacMD5");
-		Mac mac = Mac.getInstance("HmacMD5");
-		mac.init(secretKey);
-
-		byte[] hmacData = mac.doFinal(data.getBytes());
-
-		return toHEX(hmacData);
-	}
-
-	private static String toHEX(byte[] digest) {
-		StringBuffer hexString = new StringBuffer();
-		for (int i = 0; i < digest.length; ++i) {
-			String hx = Integer.toHexString(0xFF & digest[i]);
-			if (hx.length() == 1) {
-				hx = "0" + hx;
-			}
-			hexString.append(hx);
-		}
-		return hexString.toString();
+		String mt = new MimetypesFileTypeMap().getContentType(file);
+		return Response.ok(file, mt).build();
 	}
 }
