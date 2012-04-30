@@ -25,23 +25,32 @@ value=
 />
 );
 </style>
-<title>&raquo; IServer Informations</title>
+<title>&raquo; About IServer</title>
 </head>
 
 <body>
 	<br />
 	<div class="container">
 		<div class="row">
-			<h1>&raquo; Pooling Informations</h1>
+			<h1>&raquo; Information about the images update</h1>
 			<br />
 			<table class="table table-striped table-bordered">
 				<c:forEach var="pool" items="${it.poolingInformations}">
 					<tr>
+						<c:if test="${pool.key=='Output Folder'}">
+							<c:set var="access_folder_images" value="${pool.value}" scope="page" />
+						</c:if>
 						<td><b>${pool.key}</b></td>
 						<td>${pool.value}</td>
 					</tr>
 				</c:forEach>
 			</table>
+		</div>
+		<hr />
+		<div class="row">
+			<h1>&raquo; Information about access to images</h1>
+			<br /> <b>Storage Path :</b>
+			<c:out value="${pageScope.access_folder_images}" />
 		</div>
 	</div>
 </body>

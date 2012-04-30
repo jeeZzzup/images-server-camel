@@ -12,7 +12,7 @@ Features :
 - controls the images server
 
 Others Features :
-- secure access to services : HMAC (alternatives : OAuth, Spring-security
+- secure access to services : HMAC (alternatives : OAuth, Spring-security)
 - logging all services access
 - monitoring all services access
 

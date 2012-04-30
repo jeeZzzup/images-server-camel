@@ -19,10 +19,10 @@ import com.sun.jersey.api.view.Viewable;
 import fr.etai.iserver.eip.IServerRouteBuilder;
 
 @Component
-@Path("/pooling")
-public class PoolingService {
+@Path("/collect")
+public class ICollectorService {
 
-	final Logger logger = LoggerFactory.getLogger(PoolingService.class);
+	final Logger logger = LoggerFactory.getLogger(ICollectorService.class);
 
 	@Autowired
 	IServerRouteBuilder iServerRouteBuilder;

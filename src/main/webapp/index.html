@@ -25,13 +25,13 @@
 			<h1>&raquo; Welcome to iServer</h1>
 			<p>The images server</p>
 			<p>
-				<a class="btn btn-primary btn-large" href="rest/pooling/about/">Learn more</a>
+				<a class="btn btn-primary btn-large" href="rest/collect/about/">Learn more</a>
 			</p>
 		</div>
 
 		<div class="row">
 			<div class="span12">
-				<h1>Access to images</h1>
+				<h1>&raquo;  Access to images</h1>
 				<br />
 			</div>
 			<div class="span6">
@@ -49,7 +49,7 @@
 					</div>
 					<div class="span5">
 						<div class="thumbnail">
-							<img id="imageToDisplayWithHmac" alt="Image to display" src="" width="150px" height="150px" />
+							<img id="imageToDisplayWithHmac" alt="Image to display" src="" width="150px" height="150px" border="0"/>
 							<p id="caption"></p>
 						</div>
 					</div>
@@ -87,7 +87,7 @@
 		function displayImage(imageToSearchId, imageToDisplayId, useHMAC) {
 
 			// image-url
-			var url = 'rest/images/'
+			var url = 'rest/access/name/'
 					+ document.getElementById(imageToSearchId).value;
 
 			// request

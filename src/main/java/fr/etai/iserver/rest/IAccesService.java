@@ -21,26 +21,26 @@ import fr.etai.iserver.dao.ImagesDao;
 import fr.etai.iserver.security.HmacService;
 
 @Component
-@Path("/")
-public class ImagesAccessorService {
+@Path("/access")
+public class IAccesService {
 
-	final Logger logger = LoggerFactory.getLogger(ImagesAccessorService.class);
+	final Logger logger = LoggerFactory.getLogger(IAccesService.class);
 
 	@Autowired
 	private ImagesDao imagesDao;
 
 	@GET
-	@Path("/images/{image}")
+	@Path("/name/{image}")
 	@Produces("image/*")
 	public Response getImage(@HeaderParam("hmac")
 	String hmac, @PathParam("image")
-	String image) {
+	String imageName) {
 
 		if (StringUtils.isEmpty(hmac) || !new HmacService().accept(hmac)) {
 			throw new WebApplicationException(405); // forbidden
 		}
 
-		File file = imagesDao.getFileByName(image);
+		File file = imagesDao.getFileByName(imageName);
 		if (null == file) {
 			throw new WebApplicationException(404); // not found
 		}
